@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.services .container .title h1 {
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.services .container .title p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.service-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info a {
+    display: block;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5px 0px;
+    text-transform: uppercase;
+}
+
+.fas {
+    background-color: #f0664c;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.service-info a:first-child {
+    text-decoration: none;
+    border-radius: 50%;
+    position: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .service-info p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px 15px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.services .container .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info .web-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info .print-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info .web-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-angle-down {
+    margin: 0 auto;
+    color: #f0664c;
+    background-color: #fff;
+    border: 2px solid #f0664c;
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 25px;
+}
